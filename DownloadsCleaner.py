@@ -27,7 +27,7 @@ def clean_folder(folder_path):
 
 if __name__ == "__main__":
     print("Desktop Cleaner")
-    folder_path = '/Users/grantsuchecki/Downloads'
+    folder_path = '/Users/(user_name)/Downloads'
     if os.path.isdir(folder_path):
         clean_folder(folder_path)
         print('Cleaning Complete!')
